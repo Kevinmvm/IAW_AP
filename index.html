@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href= "css/stylesIndexFE.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="cabecera">
+      <img id="logo" src="./img/logo.png">
+      <h1 id="bienvenida">Benvinguts</h1>
+    </header>
+
+    <main id="main">
+      <section class="form_reg">
+        <form action="indexBE.php" method="POST">
+          <input class="controls" id="user" type="text" name="user" placeholder="Usuari">
+          <input class="controls" id="password" type="password" name="password" placeholder="Contrasenya">
+          <input class="boton" id="boton" type="submit" value="Entrar">
+        </form>
+        <form method="get" action="registerFE.php">
+          <button id="botonReg" type="submit">Registrate</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      <img id="logo_generalitat" src="./img/logo_generalitat.png">
+    </footer>
+  </body>
+</html>
