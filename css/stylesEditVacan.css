@@ -1,0 +1,106 @@
+/* header */
+#logo{
+    background-color: #222d2d;
+    width: 35%;
+    height: 35%;
+    margin: -1vh;
+    margin-top: 0vh;
+}
+
+#bienvenida{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#botonLogout2{
+    width: 120px;
+    padding: 10px;
+    background: #3867E7;
+    color: white;
+    font-family: 'calibri';
+    font-style: normal;
+    text-align: center;
+    float: right;
+    margin-top: 0vh;
+}
+#botonVolver2{
+    width: 120px;
+    padding: 10px;
+    background: #3867E7;
+    color: white;
+    font-family: 'calibri';
+    font-style: normal;
+    text-align: center;
+    float: left;
+    margin-top: 0vh;
+}
+
+/*addVacanteFE*/
+.form_reg{
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    padding: 30px;
+    margin: left;
+    margin-top: 5vh;
+}
+
+
+
+#title{
+    width: 250px;
+    padding: 12px;
+    font-family: 'calibri';
+    font-size: 15px;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+#description{
+    width: 950px;
+    height: 300px;
+    font-family: 'calibri';
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 1vh;
+    display:block;
+}
+
+
+#botonGuardar{
+    width: 120px;
+    padding: 10px;
+    background: #3867E7;
+    color: white;
+    font-family: 'calibri';
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* footer */
+#logo_generalitat{
+    width: 10rem;
+    height: auto;
+    display:block;
+    margin:auto;
+    margin-top: 6vh;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 3rem;
+    background-color: #e2e2e2
+}
